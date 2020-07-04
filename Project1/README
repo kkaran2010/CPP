@@ -5,3 +5,26 @@ g++ main.cpp -g -O0 -std=c++17 -Wall -o main -static
 OR
 
 make clean; make
+
+Compiler Options:
+1. -O -> Optimization level
+You can use,
+-O0 for None
+-O1 for Moderate
+-O2 for Full
+-O3 for Maximum
+
+2. -std -> selection of c++ compilation standards
+You can use,
+-std=c++98
+-std=c++11
+-std=c++14
+-std=c++17
+
+3. -W -> Warnings while compilation
+You can use,
+-Wall for Many warnings
+-Wextra for Extra warnings
+-Wpedantic for pedantic warnings
+
+4. -o -> To name the output executable
